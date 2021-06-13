@@ -1,0 +1,253 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOuWYAvedPJtgjHBs+KG6o/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/rishi-kesh-tech/basicml/blob/main/basic%20ml\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "LR4Ps-hZPvnc"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_zuNW9s5P-Zx"
+      },
+      "source": [
+        "python program for given number is prime or not "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "LS33UewiQrvZ"
+      },
+      "source": [
+        "num = int(input(\"Enter a number: \"))  \n",
+        "  \n",
+        "if num > 1:  \n",
+        "   for i in range(2,num):  \n",
+        "       if (num % i) == 0:  \n",
+        "           print(num,\"is not a prime number\")  \n",
+        "           print(i,\"times\",num//i,\"is\",num)  \n",
+        "           break  \n",
+        "   else:  \n",
+        "       print(num,\"is a prime number\")  \n",
+        "         \n",
+        "else:  \n",
+        "   print(num,\"is not a prime number\")  "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "veQ1vOWbRiIO"
+      },
+      "source": [
+        "python program for given number is positive or not"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Uq2nCOBaRzRL"
+      },
+      "source": [
+        "num = float(input(\"Enter a number: \"))\n",
+        "if num > 0:\n",
+        "print(\"Positive number\")\n",
+        "elif num == 0:\n",
+        "print(\"Zero\")\n",
+        "else:\n",
+        "print(\"Negative number\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CQCT5rpSR8FN"
+      },
+      "source": [
+        "python program for sum two negative numbers"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tBJoXd_YSegI"
+      },
+      "source": [
+        "# counter for sum of\n",
+        "        # negative numbers\n",
+        "        neg_sum = 0\n",
+        "  \n",
+        "        for num in list:\n",
+        "  \n",
+        "            # converting number\n",
+        "            # to integer explicitly\n",
+        "            num = int(num)\n",
+        "  \n",
+        "            # if negative number\n",
+        "            if(num < 0):\n",
+        "  \n",
+        "                # simply add to the\n",
+        "                # negative sum\n",
+        "                neg_sum + = num\n",
+        "  \n",
+        "        print(\"Sum of negative numbers is \", neg_sum)\n",
+        "  \n",
+        "    # find sum of positive numbers\n",
+        "    # according to categories\n",
+        "    def posSum(self, list):\n",
+        "  \n",
+        "        # counter for sum of\n",
+        "        # positive even numbers\n",
+        "        pos_even_sum = 0\n",
+        "  \n",
+        "        # counter for sum of\n",
+        "        # positive odd numbers\n",
+        "        pos_odd_sum = 0\n",
+        "        for num in list:\n",
+        "  \n",
+        "            # converting number\n",
+        "            # to integer explicitly\n",
+        "            num = int(num)\n",
+        "  \n",
+        "            # if negative number\n",
+        "            if(num >= 0):\n",
+        "  \n",
+        "                # if even positive\n",
+        "                if(num % 2 == 0):\n",
+        "  \n",
+        "                    # add to positive\n",
+        "                    # even sum\n",
+        "                    pos_even_sum + = num\n",
+        "                else:\n",
+        "  \n",
+        "                    # add to positive odd sum\n",
+        "                    pos_odd_sum + = num\n",
+        "  \n",
+        "        print(\"Sum of even positive numbers is \",\n",
+        "              pos_even_sum)\n",
+        "  \n",
+        "        print(\"Sum of odd positive numbers is \",\n",
+        "              pos_odd_sum)\n",
+        "  \n",
+        "  "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "RdAO3yJ7SfaO"
+      },
+      "source": [
+        "python program for palidnrome"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "JNhd6yE5S0ex"
+      },
+      "source": [
+        "str = 'JaVaJ'\n",
+        "strstr = str.casefold()\n",
+        "# This string is reverse.\n",
+        "rev = reversed(str)\n",
+        "if list(str) == list(rev):\n",
+        "print(\"PALINDROME !\")\n",
+        "else:\n",
+        "print(\"NOT PALINDROME !\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "yHy6vOKjTVw7"
+      },
+      "source": [
+        "Python program to count Even and Odd numbers in a List"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "j5o0TmqUUaCn"
+      },
+      "source": [
+        "# list of numbers\n",
+        "list1 = [10, 21, 4, 45, 66, 93, 11]\n",
+        "  \n",
+        "even_count, odd_count = 0, 0\n",
+        "num = 0\n",
+        "  \n",
+        "# using while loop     \n",
+        "while(num < len(list1)):\n",
+        "      \n",
+        "    # checking condition\n",
+        "    if list1[num] % 2 == 0:\n",
+        "        even_count += 1\n",
+        "    else:\n",
+        "        odd_count += 1\n",
+        "      \n",
+        "    # increment num \n",
+        "    num += 1\n",
+        "      \n",
+        "print(\"Even numbers in the list: \", even_count)\n",
+        "print(\"Odd numbers in the list: \", odd_count)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "k65El9YiTT1T"
+      },
+      "source": [
+        ""
+      ]
+    }
+  ]
+}
