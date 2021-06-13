@@ -1,2 +1,0 @@
-# basicml
-FEW PYTHON  PROGRAMS
