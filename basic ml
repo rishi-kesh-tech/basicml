@@ -5,7 +5,7 @@
     "colab": {
       "name": "Untitled0.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyOuWYAvedPJtgjHBs+KG6o/",
+      "authorship_tag": "ABX9TyOtUi2iPmSkkoP6rkY/NshH",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -53,7 +53,7 @@
         "id": "LS33UewiQrvZ"
       },
       "source": [
-        "num = int(input(\"Enter a number: \"))  \n",
+        "\n",
         "  \n",
         "if num > 1:  \n",
         "   for i in range(2,num):  \n",
